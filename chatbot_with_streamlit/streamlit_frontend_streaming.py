@@ -3,7 +3,7 @@ import streamlit as st
 from langchain_core.messages import HumanMessage
 from langgraph_backend import chatbot
 
-st.title("LangGraph Chatbot")
+st.title("My Chatbot")
 
 if "thread_id" not in st.session_state:
     st.session_state.thread_id = str(uuid.uuid4())
